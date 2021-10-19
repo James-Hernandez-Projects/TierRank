@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TierRank</title>
+  </head>
+  <body>
+    <nav class="hearder_nav">
+      <h1>
+        <a href="index.html"
+          >TierRank<img src="img/little-logo.png" alt="logo"
+        /></a>
+      </h1>
+      <span>DarkMode<input type="checkbox" id="tex"/></span>
+      <ul>
+        <li><a href="profiles.html">Users</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+ 
+    <section class="body_section">
+      <div class="filter_silhouete">
+        <div class="welcome_section">
+          <h1 class="title_text">Welcome to the TierRank Site</h1>
+          <p class="desct_text">
+            Creat your top 5 list for any of your interests and post it for the
+            entire site to see! Share in your opinion what ranks in the top.
+          </p>
+          <div class="link_sections">
+            <a href="register.html" class="button button-go">Sign Up</a>
+            <a href="login.html" class="button button-gray">Login</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      if(sessionStorage.getItem('data-theme') === 'dark'){
+          document.documentElement.setAttribute('data-theme','dark')
+      darkMode();
+      }
+      
+      document.querySelector('input[type = "checkbox"]').addEventListener('click',darkMode);
+      
+      function darkMode(){
+          var checkbox = document.querySelector('input[id=tex]');
+              
+      
+              checkbox.addEventListener('change',function(){
+                  if(this.checked){
+                      trans()
+                      document.documentElement.setAttribute('data-theme','dark')
+                      sessionStorage.setItem('data-theme','dark')
+                          console.log(sessionStorage.getItem('data-theme'));
+                  }
+                  else{
+                      trans()
+                      document.documentElement.setAttribute('data-theme','light')
+                      sessionStorage.setItem('data-theme','light')
+                  }
+              })
+          let trans = () => {
+              document.documentElement.classList.add('transition');
+              window.setTimeout(() => {
+                  document.documentElement.classList.remove('transition')
+              },1000)
+          }
+      }
+      </script>
+  </body>
+</html>

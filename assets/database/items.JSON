@@ -1,0 +1,20 @@
+{"_id":{"$oid":"5db8a8415df3902268190752"},"Name":"Amazon Alexa","Price":{"$numberDouble":"68.99"},"votes":{"$numberInt":"0"}}
+{"_id":{"$oid":"5db8b52a1d91d82268223b81"},"Name":"Lion Plushie","Price":{"$numberDouble":"21.69"},"votes":{"$numberInt":"559"}}
+{"_id":{"$oid":"5db8b5321d91d82268223b82"},"Name":"HP Laptop","Price":{"$numberDouble":"559.79"},"votes":{"$numberInt":"10"}}
+{"_id":{"$oid":"5db8b53b1d91d82268223b83"},"Name":"Acer Laptop","Price":{"$numberDouble":"399.99"},"votes":{"$numberInt":"0"}}
+{"_id":{"$oid":"5db8b6191d91d82268223b84"},"Name":"iPod Nano","Price":{"$numberDouble":"89.49"},"votes":{"$numberInt":"5"}}
+{"_id":{"$oid":"5db8b6191d91d82268223b85"},"Name":"iPod Classic","Price":{"$numberDouble":"19.99"},"votes":{"$numberInt":"4200"}}
+{"_id":{"$oid":"5db8b6191d91d82268223b86"},"Name":"iPhone 2g","Price":{"$numberDouble":"45.56"},"votes":{"$numberInt":"68"}}
+{"_id":{"$oid":"5db8b6191d91d82268223b87"},"Name":"Sony Playstation","Price":{"$numberDouble":"70.67"},"votes":{"$numberInt":"70"}}
+{"_id":{"$oid":"5db8b6191d91d82268223b88"},"Name":"Minecraft","Price":{"$numberDouble":"29.99"},"votes":{"$numberInt":"20"}}
+{"_id":{"$oid":"5db8b6191d91d82268223b89"},"Name":"Fortnite","Price":{"$numberDouble":"0.00"},"votes":{"$numberInt":"22"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c60"},"Name":"Alienware Laptop","Price":{"$numberDouble":"999.99"},"votes":{"$numberInt":"7"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c61"},"Name":"Segate HDD","Price":{"$numberDouble":"60.99"},"votes":{"$numberInt":"9"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c62"},"Name":"Adata SSD","Price":{"$numberDouble":"89.55"},"votes":{"$numberInt":"991"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c63"},"Name":"Windows 10","Price":{"$numberDouble":"100.89"},"votes":{"$numberInt":"45"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c64"},"Name":"Linux","Price":{"$numberDouble":"0.00"},"votes":{"$numberInt":"421"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c65"},"Name":"AMD R7 3900X","Price":{"$numberDouble":"560.01"},"votes":{"$numberInt":"899"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c66"},"Name":"Intel I9 9900KS","Price":{"$numberDouble":"529.09"},"votes":{"$numberInt":"101"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c67"},"Name":"Nvidia Titan X","Price":{"$numberDouble":"2999.38"},"votes":{"$numberInt":"33"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c68"},"Name":"Radeon RX480","Price":{"$numberDouble":"120.51"},"votes":{"$numberInt":"777"}}
+{"_id":{"$oid":"5dbb500b82bce736d8b31c69"},"Name":"Madagascar Movie","Price":{"$numberDouble":"99999.99"},"votes":{"$numberInt":"4209999"}}

@@ -1,0 +1,3 @@
+the reason some pages don't have style is because of the html lang tag has not been 
+given a type and the script is not included at the bottom so update it and it should
+work fine.

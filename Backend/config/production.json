@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://James:STvoBURPfwChOepU@developer-dapl7.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}

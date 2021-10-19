@@ -1,0 +1,2 @@
+these are the images we are using for the site, but we do have other images located in the 
+public folder directly for more images.

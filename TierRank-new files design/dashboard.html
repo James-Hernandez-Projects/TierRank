@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TierRank</title>
+  </head>
+  <body>
+    <nav class="hearder_nav">
+      <h1>
+        <a href="index.html"
+          >TierRank<img src="img/little-logo.png" alt="logo"
+        /></a>
+      </h1>
+      <span>DarkMode<input type="checkbox" id="tex"/></span>
+      <ul>
+        <li><a href="profiles.html">Users</a></li>
+        <li><a href="lists.html">Lists</a></li>
+        <li><a href="post.html">Posts</a></li>
+        <li><a href="dashboard.html">Dashboards</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+    <div class="category_container">
+      <div class="category_container_Button">
+        <span class="category_container_topic"
+          ><a href="#" class="category_container_link"
+            ><i class="fas fa-desktop"></i>Electronics</a
+          ></span
+        >
+      </div>
+      <div class="category_container_Button">
+        <span class="category_container_topic"
+          ><a href="#" class="category_container_link"
+            ><i class="fas fa-heartbeat"></i>Health & Fitness</a
+          ></span
+        >
+      </div>
+      <div class="category_container_Button">
+        <span class="category_container_topic"
+          ><a href="#" class="category_container_link"
+            ><i class="fas fa-ghost"></i>Gaming</a
+          ></span
+        >
+      </div>
+      <div class="category_container_Button">
+        <span class="category_container_topic"
+          ><a href="#" class="category_container_link"
+            ><i class="fas fa-book-reader"></i>Education</a
+          ></span
+        >
+      </div>
+      <div class="category_container_Button">
+        <span class="category_container_topic"
+          ><a href="#" class="category_container_link"
+            ><i class="fas fa-music"></i>Music</a
+          ></span
+        >
+      </div>
+    </div>
+    <section class="section_container">
+      <h1 class="header1_text header-color">
+        Dashboard
+      </h1>
+      <p class="desct_text"><i class="fas fa-user"></i> Welcome name_of_user</p>
+      <div class="dashboard_resources">
+        <a href="edit-profile.html" class="button button-go"
+          ><i class="fas fa-user-circle header-side-color"></i> Edit Profile</a
+        >
+        <a href="add-experience.html" class="button button-go"
+          ><i class="fas fa-hand-spock header-side-color"></i> Add Experience</a
+        >
+        <a href="add-list.html" class="button button-go"
+          ><i class="fas fa-file-alt header-side-color"></i> Add List</a
+        >
+      </div>
+
+      <h2 class="margin_2">Experience Credentials</h2>
+      <table class="data">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Title</th>
+            <th>Years</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tech Guy Web Solutions</td>
+            <td>Senior Developer</td>
+            <td>
+              02-03-2009 - 01-02-2014
+            </td>
+            <td>
+              <button class="button button-stop">
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Traversy Media</td>
+            <td>Instructor & Developer</td>
+            <td>
+              02-03-2015 - Now
+            </td>
+            <td>
+              <button class="button button-stop">
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="margin_2">Lists</h2>
+      <table class="data">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>1st Item</th>
+            <th>2nd Item</th>
+            <th>3rd Item</th>
+            <th>4th Item</th>
+            <th>5th Item</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>best laptops</td>
+            <td>dell</td>
+            <td>alienware</td>
+            <td>
+              acer
+            </td>
+            <td>razor</td>
+            <td>lg</td>
+            <td>
+              <button class="button button-stop">
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="margin_2">
+        <button class="button button-stop">
+          <i class="fas fa-user-minus"></i>
+          Delete My Account
+        </button>
+      </div>
+    </section>
+    <script src="./js/darkmode.js"></script>
+  </body>
+</html>
